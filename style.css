@@ -97,6 +97,7 @@ margin-top: 175px;
     left: 135px;
     
 }
+<<<<<<< Updated upstream
 .dpara2{
 font-family: DM Sans;
 font-size: 20px;
@@ -107,9 +108,33 @@ text-align: left;
 color:#000000;
 }
 
+=======
+
+.section-left-part{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-between;
+    margin : 200px;
+    gap: 10px;
+}
+
+.date-and-details, h4{
+       color: grey;
+      font-family : DM Sans;
+>>>>>>> Stashed changes
 
 
+<<<<<<< Updated upstream
 /* shekhar-css */
+=======
+}
+.section-right-part{
+  display: flex;
+  flex-direction: column;
+   
+   gap : 10%;
+   margin : 20px;
+>>>>>>> Stashed changes
 
 .Dicat-down {
      margin: 50px;
@@ -122,6 +147,39 @@ color:#000000;
 #last-para{
   margin : 50px;
 }
+<<<<<<< Updated upstream
+=======
+.Mazim-head h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Dicat-down{
+    margin: 50px;
+    
+}
+
+#heading {
+  margin : 50px;
+
+}
+
+#firstpara{
+  margin : 50px;
+
+}
+
+#dicat-heading {
+  margin : 50px;
+}
+#secondpara{
+  margin : 50px;
+
+}
+
+#lastpara{
+  margin :  50px;
+}
+>>>>>>> Stashed changes
 /* khalid-css */
 
 /* footer */
