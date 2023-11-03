@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* nav */
+
+/* deepak-css */
+
+.dmain{
+margin-left: 135px;
+
+}
+.dclass{
+    width: 436px;
+    height: 160px;
+}
+.pclass{
+color:#000000;
+font-family: DM Serif Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 175px;
+
+}
+.dclass2{
+    width: 570px;
+    height: 83px;
+    top: 361px;
+    left: 135px;
+    
+}
+.dpara2{
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color:#000000;
+}
+
+
+
+/* shekhar-css */
+
+/* khalid-css */
+
+/* footer */
+footer {
+    background: rgba(67, 76, 204, 0.0515);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+  }
+  
+  footer .container {
+    max-width: 1170px;
+    flex-grow: 1;
+    margin-top: 80px;
+    display: flex;
+  }
+  
+  footer .footer-col {
+    flex-grow: 1;
+  }
+  
+  footer .logo-social {
+    flex-basis: 33.32%;
+  }footer .causae {
+    flex-basis: 16.66%;
+  }
+  
+  footer .aperiri {
+    flex-basis: 16.66%;
+  }
+  
+  footer .latest-posts {
+    flex-basis: 33.32%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  
+  footer .footer-logo {
+    margin-bottom: 40px;
+  }
+  
+  footer .social {
+    display: flex;
+    gap: 13px;
+  }footer .aboutus {
+    width: 270px;
+    margin-bottom: 32px;
+  }
+  
+  footer .latest-post {
+    display: flex;
+    gap: 30px;
+  }
+  
+  footer .latest-post__image {
+    height: 48px;
+    flex-grow: 0;
+    width: 71px;
+    border-radius: 8px;
+  }
+  
+  footer .latest-post__content {
+    display: flex;
+    gap: 26px;
+    flex-direction: column;
+  }
