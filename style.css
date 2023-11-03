@@ -1,3 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* nav */
+
+.navbar {
+    font-family: sans-serif;
+    height: 80px;
+    width: auto;
+    flex-shrink: 0;
+    background: #434CCC;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 20px;
+}
+#logo{
+    float: left;
+}
+.navbar img {
+    height: 60px;
+    width: 65px;
+    margin-right: 650px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 24px;
+}
+
+.nav-links li {
+    margin-right: 30px;
+    float: inline-end;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--Text_White, #FFF);
+    text-align: right;
+    /* Text */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+button{
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    padding: 13px 56.5px 11px 56.5px;
+    border: 1px solid rgb(192, 183, 183);
+    text-decoration: none;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #434CCC;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    font-family: DM Sans;
+    margin-right: 135px;
+}
+
+
+/* deepak-css */
+
+.dmain{
+margin-left: 135px;
+
+}
+.dclass{
+    width: 436px;
+    height: 160px;
+}
+.pclass{
+color:#000000;
+font-family: DM Serif Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 175px;
+
+}
+.dclass2{
+    width: 570px;
+    height: 83px;
+    top: 361px;
+    left: 135px;
+    
+}
+.dpara2{
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color:#000000;
+}
+
+
+
+/* shekhar-css */
+
+.Dicat-down {
+     margin: 50px;
+}
+
+#dicat-heading {
+      margin : 50px;
+      
+}
+#last-para{
+  margin : 50px;
+}
+/* khalid-css */
+
+/* footer */
 footer {
   background: rgba(67, 76, 204, 0.0515);
   display: flex;
