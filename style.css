@@ -1,3 +1,62 @@
+/* khalid */
+.k-card1{
+  width: 570px;
+  height: 512px;
+  background-color: #E94A47;
+  background-image: url('download.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.k-card1>div{
+  margin-left: 100px;
+}
+
+.k-card2{
+  width: 570px;
+  height: 512px;
+  background-color: #428DFC;
+  background-image: url('dog.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.k-card2>div{
+  margin-left: 100px;
+}
+.k-cards{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.k-box>div{
+margin-left: 135px;
+}
+.k-box button{
+  margin-left: 635px;
+  background-color: white;
+}
+.k-container
+{
+  width: 100%;
+  height: 352px;
+  background-color: #ffdd78;
+  padding-left: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:30px;
+margin-top: 80px;
+}
+.k-email{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
 footer {
   background: rgba(67, 76, 204, 0.0515);
   display: flex;
