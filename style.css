@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0%;
@@ -79,6 +80,66 @@ margin-left: 135px;
     width: 436px;
     height: 160px;
 }
+
+/* khalid */
+.k-card1{
+  width: 570px;
+  height: 512px;
+  background-color: #E94A47;
+  background-image: url('download.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.k-card1>div{
+  margin-left: 100px;
+}
+
+.k-card2{
+  width: 570px;
+  height: 512px;
+  background-color: #428DFC;
+  background-image: url('dog.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.k-card2>div{
+  margin-left: 100px;
+}
+.k-cards{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.k-box>div{
+margin-left: 135px;
+}
+.k-box button{
+  margin-left: 635px;
+  background-color: white;
+}
+.k-container
+{
+  width: 100%;
+  height: 352px;
+  background-color: #ffdd78;
+  padding-left: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:30px;
+margin-top: 80px;
+}
+.k-email{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
 .pclass{
 color:#000000;
 font-family: DM Serif Display;
@@ -97,7 +158,7 @@ margin-top: 175px;
     left: 135px;
     
 }
-<<<<<<< Updated upstream
+
 .dpara2{
 font-family: DM Sans;
 font-size: 20px;
@@ -108,79 +169,86 @@ text-align: left;
 color:#000000;
 }
 
-=======
+
+/*shekhar's css*/
+.My-part {
+  display : flex;
+  background-color : rgb(247, 250, 250);
+   justify-content: space-between;
+   align-items: right;
+
+}
 
 .section-left-part{
-    display : flex;
-    flex-wrap : wrap;
-    justify-content : space-between;
-    margin : 200px;
-    gap: 10px;
+  display : flex;
+  flex-wrap: wrap; 
+  margin : 200px;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #000;
 }
 
-.date-and-details, h4{
-       color: grey;
-      font-family : DM Sans;
->>>>>>> Stashed changes
 
-
-<<<<<<< Updated upstream
-/* shekhar-css */
-=======
-}
-.section-right-part{
-  display: flex;
-  flex-direction: column;
-   
-   gap : 10%;
-   margin : 20px;
->>>>>>> Stashed changes
-
-.Dicat-down {
-     margin: 50px;
-}
-
-#dicat-heading {
-      margin : 50px;
-      
-}
-#last-para{
-  margin : 50px;
-}
-<<<<<<< Updated upstream
-=======
-.Mazim-head h1{
-     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.Dicat-down{
-    margin: 50px;
+.date-and-details, p{
+     color: grey;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
-#heading {
-  margin : 50px;
+.date-and-details, h4{
+ color: black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ width: 45%;
+ height: 100px;
+ margin-bottom : 1px;
 
+}
+.section-right-part{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid #000;
+ gap : 10%;
+ margin : 100px;
+
+}
+
+.Mazim-head{
+  margin: 30px;
+  
+}
+
+
+#heading{
+  font-size: 60px;
+  font-family: DM sans-serif;
 }
 
 #firstpara{
-  margin : 50px;
-
+   color : rgb(83, 83, 83);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Dicat-down{
+  margin: 30px;
 }
 
-#dicat-heading {
-  margin : 50px;
-}
 #secondpara{
-  margin : 50px;
-
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color : rgb(83, 83, 83);
 }
 
-#lastpara{
-  margin :  50px;
+.social-media{
+
+  margin : 30px;
 }
->>>>>>> Stashed changes
-/* khalid-css */
+
+
+
+
+
+
+
+
+
 
 /* footer */
 footer {
