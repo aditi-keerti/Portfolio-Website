@@ -6,52 +6,53 @@
 
 .navbar {
   font-family: 'DM Serif Display', serif;
-    font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Pixelify Sans', sans-serif;
   height: 80px;
-  width: auto;
+  width: 1515px;
   flex-shrink: 0;
   background: #434CCC;
   display: flex;
-  justify-content: right;
+  gap:34px;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
 }
 #logo{
-  float: left;
-
+  margin-left: 135px;
+  margin-right: 200px;
+  align-items: flex-start; 
+  
 }
 .navbar img {
   height: 60px;
   width: 65px;
-  margin-right: 650px;
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  
   height: 24px;
-}
-
-.nav-links li {
-  margin-right: 30px;
-  float: inline-end;
+  flex-direction: row;
+  padding-bottom: 16px;
+  align-items: baseline;
 }
 
 .nav-links a {
+
   text-decoration: none;
   color: var(--Text_White, #FFF);
   text-align: right;
   /* Text */
-  font-family: DM Sans;
+  font-family: 'DM Serif Display', serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 150% */
+  margin-right: 20px;
+ 
 }
-
 .abutton{
+  font-family: 'DM Serif Display', serif;
+  margin-bottom: 10px;
   width: 170px;
   height: 48px;
   flex-shrink: 0;
@@ -64,10 +65,11 @@
   text-align: center;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 24px; /* 150% */
-  font-family: DM Sans;
-  margin-right: 135px;
+  position: relative;
+  margin-right: 200px;
+  margin-bottom: 16px;
 }
 
 
@@ -99,7 +101,7 @@ height: 160px;
 }
 .pclass{
 color:#000000;
-font-family: DM Serif Display;
+font-family: 'DM Serif Display', serif;
 font-size: 72px;
 font-weight: 700;
 line-height: 80px;
@@ -118,7 +120,7 @@ left: 135px;
 
 }
 .dpara2{
-font-family: sans-serif;
+  font-family: 'DM Serif Display', serif;
 font-size: 20px;
 font-weight: 510;
 line-height: 32px;
@@ -200,7 +202,7 @@ background-color: white;
 {
 
 height: 352px;
-width: auto;
+width: 1380px;
 background-color: #ffdd78;
 padding-left: 135px;
 display: flex;
@@ -348,6 +350,7 @@ background: rgba(67, 76, 204, 0.0515);
 display: flex;
 justify-content: center;
 height: 400px;
+width: 1515px;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 }
 footer .container {
