@@ -14,6 +14,7 @@ This repository consistes the portfolito site Vestal Trouble.which is collaborat
 
  # PROJECT SNIPPETS
 
+![image](https://github.com/aditi-keerti/vestal-trouble-683/assets/76037392/500f6a4e-dec4-44b2-a02d-5701bd020b45)
 
  
 
